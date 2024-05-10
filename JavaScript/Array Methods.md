@@ -87,6 +87,10 @@ friends.unshift("Muhi");
 console.log(friends);
 ```
 
+## forEach()
+
+Array.forEach() is used to execute a provided function once for each element. It's a great way to traverse a array without using the traditional for loops. We have to pass a callback function as a parameter of the method. 
+
 ## find()
 
 Array.find() method is used to search specific element through condition. We have to pass a callback function as a parameter of the method. This callback has also 3 parameters named 'value', 'index', 'array'. The first one 'value' is required and the others are optional. It will return a value that satisfies the condition written in the callback function. 
@@ -99,4 +103,5 @@ var newNum = numbers.find((value, index, array) => {
 console.log(newNum);
 ```
 
-In the newNum variable, the value will be the first element of the 'numbers' array which is greater than 2
+In the 'newNum' variable, the value will be the first element of the 'numbers' array which is greater than 2.
+
