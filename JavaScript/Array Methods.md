@@ -65,3 +65,14 @@ const poppedOut = friends.pop();
 console.log(friends);
 console.log(poppedOut);
 ```
+
+## shift ()
+
+Array.shift() method is almost similiar to Array.pop() method. Array.pop() method removes the last element but Array.shift() method removes the first element of an Array and returns the value that was shifted out.
+
+```javascript
+var friends = ["Fuad", "Tasin", "Sakib"];
+const shiftedOut = friends.shift();
+console.log(friends);
+console.log(shiftedOut);
+```
