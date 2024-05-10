@@ -86,3 +86,17 @@ var friends = ["Fuad", "Tasin", "Sakib"];
 friends.unshift("Muhi");
 console.log(friends);
 ```
+
+## find()
+
+Array.find() method is used to search specific element through condition. We have to pass a callback function as a parameter of the method. This callback has also 3 parameters named 'value', 'index', 'array'. The first one 'value' is required and the others are optional. It will return a value that satisfies the condition written in the callback function. 
+
+```javascript
+var numbers = [1, 2, 3, 4, 5, 6];
+var newNum = numbers.find((value, index, array) => {
+    return value > 2;
+});
+console.log(newNum);
+```
+
+In the newNum variable, the value will be the first element of the 'numbers' array which is greater than 2
