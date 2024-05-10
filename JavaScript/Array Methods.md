@@ -14,7 +14,7 @@ var colors = ["red", "green", "blue"]; /// colors Array
 You also can create an Array of multiple types.
 
 ```JavaScript
-var myArr = [1,2,3,4,5,6]; // Numbers Array
+var myArr = [1,"fuad"]; // Numbers Array
 ```
 
 ## Important Array Methods
