@@ -1,4 +1,4 @@
-# Array in JavaScript: All Your Need to Need
+# Array in JavaScript
 
 ## Introduction
 
@@ -38,4 +38,20 @@ Array.toString() method converts an Array to a string (comma separatedly) of Arr
 var fruits = ["Mango", "Apple", "Bananna"];
 var str = fruits.toString();
 console.log(str);
+```
+
+## push()
+
+Array.push() method is used to insert a single element or more than a single element to the end of an Array. We can also push an array using this method.
+
+For Example,
+
+``` JavaScript
+var friends = ["Fuad", "Arif", "Tasin"];
+// inserting a single element
+friends.push("Nafiz");
+// inserting an array
+var anoFriends  = ["Raad", "Turzo", "Nafi"];
+friends.push(...anoFriends);
+
 ```
