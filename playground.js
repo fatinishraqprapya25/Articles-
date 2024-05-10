@@ -1,4 +1,3 @@
 var friends = ["Fuad", "Tasin", "Sakib"];
-const shiftedOut = friends.shift();
+friends.unshift("Muhi");
 console.log(friends);
-console.log(shiftedOut);

@@ -76,3 +76,13 @@ const shiftedOut = friends.shift();
 console.log(friends);
 console.log(shiftedOut);
 ```
+
+## unshift()
+
+Array.unshift() method works like the Array.push() method. Push method add an element or elements to the end of an array. But Unshift method inserts an element at the beginning.
+
+```javascript
+var friends = ["Fuad", "Tasin", "Sakib"];
+friends.unshift("Muhi");
+console.log(friends);
+```
