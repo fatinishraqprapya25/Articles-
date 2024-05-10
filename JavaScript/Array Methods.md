@@ -91,6 +91,13 @@ console.log(friends);
 
 Array.forEach() is used to execute a provided function once for each element. It's a great way to traverse a array without using the traditional for loops. We have to pass a callback function as a parameter of the method. 
 
+```javascript
+var numbers = [1, 2, 3, 4, 5, 6];
+numbers.forEach((value, index, array) => {
+    console.log(value);
+});
+```
+
 ## find()
 
 Array.find() method is used to search specific element through condition. We have to pass a callback function as a parameter of the method. This callback has also 3 parameters named 'value', 'index', 'array'. The first one 'value' is required and the others are optional. It will return a value that satisfies the condition written in the callback function. 
