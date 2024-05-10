@@ -105,3 +105,15 @@ console.log(newNum);
 
 In the 'newNum' variable, the value will be the first element of the 'numbers' array which is greater than 2.
 
+## filter()
+
+Array.filter() method is almost similiar to Array.find() method. It also takes a callback function as parameter and this callback function has 3 parameters. The parameters are 'value', 'index' and 'array'. The first one is required and the second & third one are optional. The find() method returns a single value. But it returns a array of values those satisfies the condition written in the callback function's body.
+
+``` JavaScript
+var numbers = [1, 2, 3, 4, 5, 6];
+var newNum = numbers.filter((value, index, array) => {
+    return value <= 2;
+});
+
+console.log(newNum);
+```
