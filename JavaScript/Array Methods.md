@@ -21,7 +21,7 @@ var myArr = [1,2,3,4,5,6]; // Numbers Array
 
 JavaScript Array has some awesome and powerful methods those allow us to manupulate Array efficiently and perform various operations. Some of them are given below.
 
-## Length
+## length
 
 'length' Method is used to get the number of elements of an Array. For Example, We have an array called myFriends and it has 4 elements. If use the 'length' method it will return 4.
 
@@ -53,5 +53,15 @@ friends.push("Nafiz");
 // inserting an array
 var anoFriends  = ["Raad", "Turzo", "Nafi"];
 friends.push(...anoFriends);
+```
 
+## pop()
+
+Array.pop() method removes the last element of an Array and returns the value that was popped out.
+
+```javascript
+var friends = ["Fuad", "Tasin", "Sakib"];
+const poppedOut = friends.pop();
+console.log(friends);
+console.log(poppedOut);
 ```
