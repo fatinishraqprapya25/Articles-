@@ -98,6 +98,18 @@ numbers.forEach((value, index, array) => {
 });
 ```
 
+## map()
+
+Array.map() has lots of similarities with Array.forEach() method. This method also take a callback function as a parameter. And this callback function has 3 parameters. They are 'value', 'index', 'array'. 
+
+```javascript
+var datas = [1, 2, 3, 4, 5, 6];
+const newData = datas.map((value, index, array) => {
+    return value * value;
+});
+console.log(newData);
+```
+
 ## find()
 
 Array.find() method is used to search specific element through condition. We have to pass a callback function as a parameter of the method. This callback has also 3 parameters named 'value', 'index', 'array'. The first one 'value' is required and the others are optional. It will return a value that satisfies the condition written in the callback function. 
