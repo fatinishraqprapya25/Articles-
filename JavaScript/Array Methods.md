@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In JavaScript, An Array is an special type of variable that can contain a single value or more than a value of diffent types at a time. We can think of it as a collection of data stored in a variable. It is very easy to declare and use an array.
+In JavaScript, An Array is an special type of variable that can contain a single value or more than a value of different types at a time. We can think of it as a collection of data stored in a variable. It is very easy to declare and use an array.
 
 For Example, you want to create a numbers Array and a colors array.
 
@@ -136,3 +136,18 @@ var newNum = numbers.filter((value, index, array) => {
 
 console.log(newNum);
 ```
+
+## reduce()
+
+Array.reduce() method is very powerfull. This is method is used to reduce the array to a single value. It take a callback function and a initial value as parameters.Initial Value is optional. The function executes once for each element. This function has 2 parameters. The parameters are 'accumulator', 'currentValue'. 
+
+```JavaScript
+const numbers = [1, 2, 3, 4, 5];
+const initialValue = 0;
+const sumWithInitial = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, initialValue);
+console.log(sumWithInitial);
+```
+
+If you've read through the entire article, I hope you've grasped the fundamentals of arrays and their methods. Stay tuned for further updates! If you found this article helpful, please consider liking, commenting, and sharing your thoughts.
