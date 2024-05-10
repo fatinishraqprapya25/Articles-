@@ -42,7 +42,7 @@ console.log(str);
 
 ## push()
 
-Array.push() method is used to insert a single element or more than a single element to the end of an Array. We can also push an array using this method.
+Array.push() method is used to insert a single element or more than a single element to the end of an Array. We can also push an array using this method. Besides, this method returns the new length of the Array.
 
 For Example,
 

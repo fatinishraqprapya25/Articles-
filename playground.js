@@ -1,8 +1,9 @@
 var friends = ["Fuad", "Arif", "Tasin"];
 // inserting a single element
-friends.push("Nafiz");
+var x = friends.push("Nafiz");
+console.log(x);
 
 var anoFriends = ["Raad", "Turzo", "Nafi"];
-friends.push(...anoFriends);
+const len = friends.push(...anoFriends);
 
-console.log(friends);
+console.log(len);
